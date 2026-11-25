@@ -20,7 +20,7 @@ def main():
     signals = collect_all_signals(args.supplier, args.product)
     analysis = analyze(signals)
 
-    #print("DEBUG signals =", signals)
+    # very useful if you need to understand some issues : print("DEBUG signals =", signals)
    # print("DEBUG analysis =", analysis)
 
     print_report(args.supplier, args.product, analysis, signals)
