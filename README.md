@@ -16,7 +16,7 @@ A lightweight first-pass CLI tool that collects & analyzes public vulnerability 
 <p>_ Supports supplier-level queries with optional product/component focus</p>
 <p>_ Simple and clean CLI interface</p>
 <p>_ Modular architecture (collectors → aggregator → analyzer → reporter)</p>
-<p>_ Explicitly designed as a <strong>first-pass</strong> tool using public sources only</p>
+<p>_ Explicitly designed as a first-pass tool using public sources only</p>
 
 ## Usage
 
