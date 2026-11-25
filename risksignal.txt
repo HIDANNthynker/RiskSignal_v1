@@ -1,0 +1,14 @@
+Tree
+
+/-mainlab.py
+/-requirements.txt
+/-README.md
+/-src/
+        __init__.py
+        aggregator.py
+        analyzer.py
+        reporter.py
+        collectors/
+                    __init__.py
+                    nvd.py
+                    osv.py
