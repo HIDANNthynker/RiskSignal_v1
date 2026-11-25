@@ -8,13 +8,13 @@ A lightweight first-pass CLI tool that collects & analyzes public vulnerability 
 
 ## Features
 
-- Collects public vulnerability signals from:
+_ Collects public vulnerability signals from:
   - NVD (National Vulnerability Database)
   - OSV (Open Source Vulnerabilities)
-- Supports supplier-level queries with optional product/component focus
-- Simple and clean CLI interface
-- Modular architecture (collectors → aggregator → analyzer → reporter)
-- Explicitly designed as a **first-pass** tool using public sources only
+_ Supports supplier-level queries with optional product/component focus
+_ Simple and clean CLI interface
+_ Modular architecture (collectors → aggregator → analyzer → reporter)
+_ Explicitly designed as a **first-pass** tool using public sources only
 
 ## Usage
 
@@ -33,9 +33,10 @@ python mainlab.py --supplier "ExampleVendor" --product "libxyz"
 
 ## Structure
 
+```text
 RiskSignal/
 │
-├── README.md                
+├── README.md
 ├── mainlab.py
 ├── risksignal.txt
 │
@@ -49,6 +50,7 @@ RiskSignal/
         ├── __init__.py
         ├── nvd.py
         └── osv.py
+```
 
 
 ## Outro
