@@ -8,13 +8,15 @@ A lightweight first-pass CLI tool that collects & analyzes public vulnerability 
 
 ## Features
 
-&#95; Collects public vulnerability signals from:
-  - NVD (National Vulnerability Database)
-  - OSV (Open Source Vulnerabilities)
-&#95; Supports supplier-level queries with optional product/component focus
-&#95; Simple and clean CLI interface
-&#95; Modular architecture (collectors → aggregator → analyzer → reporter)
-&#95; Explicitly designed as a **first-pass** tool using public sources only
+<p>_ Collects public vulnerability signals from:</p>
+<ul>
+<li>NVD (National Vulnerability Database)</li>
+<li>OSV (Open Source Vulnerabilities)</li>
+</ul>
+<p>_ Supports supplier-level queries with optional product/component focus</p>
+<p>_ Simple and clean CLI interface</p>
+<p>_ Modular architecture (collectors → aggregator → analyzer → reporter)</p>
+<p>_ Explicitly designed as a <strong>first-pass</strong> tool using public sources only</p>
 
 ## Usage
 
